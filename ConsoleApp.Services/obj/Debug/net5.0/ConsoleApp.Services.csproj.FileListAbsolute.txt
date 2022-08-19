@@ -1,0 +1,12 @@
+C:\Users\jbravo\source\repos\ConsoleApp\ConsoleApp.Services\bin\Debug\net5.0\ConsoleApp.Services.deps.json
+C:\Users\jbravo\source\repos\ConsoleApp\ConsoleApp.Services\bin\Debug\net5.0\ConsoleApp.Services.dll
+C:\Users\jbravo\source\repos\ConsoleApp\ConsoleApp.Services\bin\Debug\net5.0\ref\ConsoleApp.Services.dll
+C:\Users\jbravo\source\repos\ConsoleApp\ConsoleApp.Services\bin\Debug\net5.0\ConsoleApp.Services.pdb
+C:\Users\jbravo\source\repos\ConsoleApp\ConsoleApp.Services\obj\Debug\net5.0\ConsoleApp.Services.csproj.AssemblyReference.cache
+C:\Users\jbravo\source\repos\ConsoleApp\ConsoleApp.Services\obj\Debug\net5.0\ConsoleApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jbravo\source\repos\ConsoleApp\ConsoleApp.Services\obj\Debug\net5.0\ConsoleApp.Services.AssemblyInfoInputs.cache
+C:\Users\jbravo\source\repos\ConsoleApp\ConsoleApp.Services\obj\Debug\net5.0\ConsoleApp.Services.AssemblyInfo.cs
+C:\Users\jbravo\source\repos\ConsoleApp\ConsoleApp.Services\obj\Debug\net5.0\ConsoleApp.Services.csproj.CoreCompileInputs.cache
+C:\Users\jbravo\source\repos\ConsoleApp\ConsoleApp.Services\obj\Debug\net5.0\ConsoleApp.Services.dll
+C:\Users\jbravo\source\repos\ConsoleApp\ConsoleApp.Services\obj\Debug\net5.0\ref\ConsoleApp.Services.dll
+C:\Users\jbravo\source\repos\ConsoleApp\ConsoleApp.Services\obj\Debug\net5.0\ConsoleApp.Services.pdb

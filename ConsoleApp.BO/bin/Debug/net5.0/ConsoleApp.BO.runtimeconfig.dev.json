@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\jbravo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\jbravo\\.nuget\\packages"
+    ]
+  }
+}
