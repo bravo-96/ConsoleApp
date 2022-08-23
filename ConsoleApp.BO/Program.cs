@@ -1,10 +1,6 @@
 ﻿using ConsoleApp.Services.Services;
 using ConsoleApp.Services.Services.Implements;
 using System;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Net.Http.Json;
-using System.Text.Json;
 //using Newtonsoft.Json;
 
 namespace ConsoleApp.BO
@@ -15,7 +11,7 @@ namespace ConsoleApp.BO
         {
             Console.WriteLine("Hello World!");
 
-            #region ejemplo
+            #region ejemploMarian
 
             //ColorDTO pais = new()
             //{
@@ -73,58 +69,11 @@ namespace ConsoleApp.BO
 
 
 
-            ColorService cs = new();
-            //var colores = colorService.GetAll();
+            DTOService<PaisDTO> paisService = new();
 
-            //foreach( var item in colores )
-            //{
-            //    Console.WriteLine(item.Nombre);
-            //}
+            var res = paisService.GetById("pais", 3).Result;
 
-
-
-
-
-            //Console.WriteLine("Ingrese el ID del color a actualizar:");
-            //int IdColor = int.Parse(Console.ReadLine());
-
-            //Console.WriteLine("Ingrese el nombre del color");
-            //string NombreColor = Console.ReadLine();
-
-            //ColorDTO color = new()
-            //{
-            //    Id = IdColor,
-            //    Nombre = NombreColor
-            //};
-
-            //cs.Update(color);
-
-
-
-
-            Console.WriteLine("Ingresar el id del color a eliminar:");
-            int id = int.Parse(Console.ReadLine());
-
-            cs.Delete(id);
-
-            var colores = cs.GetAll();
-
-            foreach( var item in colores )
-            {
-                Console.WriteLine(item.Nombre);
-            }
-
-
-
-
-            //var Colores = cs.GetAll();
-
-            //foreach( var item in Colores )
-            //{
-            //    Console.WriteLine(item.Nombre);
-            //}
-
-            //Console.ReadKey();
+            Console.WriteLine(res.Nombre);
         }
     }
 }

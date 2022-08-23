@@ -1,13 +1,12 @@
-﻿using ConsoleApp.Services.DTO;
+﻿using ConsoleApp.Services.Services;
 
-namespace ConsoleApp.Services.Services
+namespace ConsoleApp.Services.DTO
 {
-    public class VehiculoDTO : IVehiculoDTOInterface
+    public interface IVehiculoDTOInterface
     {
         public int Id { get; set; }
         public decimal Precio { get; set; }
         public string Anio { get; set; }
-
 
 
         //////////////////////////////////////////////////////////////////
